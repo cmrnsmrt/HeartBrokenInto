@@ -1,0 +1,61 @@
+/* basic file for main (dark) style on ABB site */
+
+@import "bootstrap";
+/* standard colour variables */
+:root {
+    --darkBackground: #000000;
+    --darkElements: #303030;
+    --darkText: #FFFFFF;
+    --darkHighlight1: #FF4F5C;
+    --darkHighlight2: #00CE9E;
+    --darkHighlight3: #32DDE9;
+
+    --lightBackground: #FFFFFF;
+    --lightElements: #DADADA;
+    --lightText: #000000;
+    --lightHighlight1: #FF4F5C;
+    --lightHighlight2: #00CE9E;
+    --lightHighlight3: #0024C3;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--lightBackground);
+    font-weight: 400 !important;
+}
+
+h1 {
+    font-weight: 900 !important;
+}
+
+h1, h2, h3, p , a{
+    color: var(--lightText)
+}
+
+button {
+    background-color: var(--lightElements) !important;
+    border-color: var(--lightElements) !important;
+    color: var(--lightText) !important;
+    padding: 10px;
+}
+
+footer{
+    padding-left: 10px;
+}
+
+.nav-link {
+    color: var(--lightText)
+}
+
+#btnRegisterSubmit {
+    background-color: var(--lightHighlight1);
+}
+
+nav {
+    background-color: var(--lightBackground);
+}
+
+#profilePic {
+    border-radius: 25% !important;
+}
