@@ -25,12 +25,17 @@ body {
     font-weight: 400 !important;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 900 !important;
 }
 
 h1, h2, h3, p , a{
     color: var(--lightText)
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
 }
 
 button {
