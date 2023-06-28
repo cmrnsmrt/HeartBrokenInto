@@ -3,13 +3,7 @@ from flask_mysqldb import MySQL
 
 import re
 
-app = Flask(__name__)
-
-# MySQL Connection Creds
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'abertaybugbounty'
+app = Flask(__name__, static_folder="/Users/cameronsmart/Documents/GitHub/HeartBrokenInto/static", template_folder="/Users/cameronsmart/Documents/GitHub/HeartBrokenInto/templates")
 
 mysql = MySQL(app)
 
